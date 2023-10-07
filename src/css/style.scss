@@ -100,7 +100,7 @@ $ff: 'Roboto', Arial, Helvetica, sans-serif;
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    font-size: 2.5rem;
+                    font-size: 3rem;
                 }
             }
 
@@ -151,13 +151,13 @@ body.is-color-blind-mode {
         .row {
             .cell.allowed {
                 &:after {
-                    content: '✔️';
+                    content: '✔';
                 }
             }
 
             .cell.visited {
                 &:after {
-                    content: '❌';
+                    content: '✘';
                 }
             }
         }
